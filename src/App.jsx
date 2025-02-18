@@ -1,12 +1,13 @@
 import React from 'react'
-import Images from './components/images.jsx'
-import Navbar from './components/Navbar.jsx'
+import Navbar from './components/Navbar';
+import Images from './components/Images';
+
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Images/>
+     <Images/>
     </div>
   )
 }
